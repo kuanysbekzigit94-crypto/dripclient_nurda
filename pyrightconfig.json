@@ -1,0 +1,8 @@
+{
+  "pythonVersion": "3.12",
+  "pythonPlatform": "Windows",
+  "include": ["."],
+  "extraPaths": ["."],
+  "pythonPath": "C:/Users/Бекжігіт Қуаныш/AppData/Roaming/Python/Python312/python.exe",
+  "venvPath": "C:/Users/Бекжігіт Қуаныш/AppData/Roaming/Python/Python312"
+}

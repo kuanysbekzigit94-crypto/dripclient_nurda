@@ -1,0 +1,19 @@
+[Unit]
+Description=Pay App Telegram Bot
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/pay-app-bot
+ExecStart=/home/ubuntu/pay-app-bot/venv/bin/python main.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Environment файлы (серверде жолды өзгертіңіз)
+EnvironmentFile=/home/ubuntu/pay-app-bot/.env
+
+[Install]
+WantedBy=multi-user.target
